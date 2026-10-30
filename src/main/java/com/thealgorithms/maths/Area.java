@@ -95,14 +95,14 @@ public final class Area {
      * @param width  width of a rectangle
      * @return area of given rectangle
      */
-    public static double surfaceAreaRectangle(final double length, final double width) {
+    public static double surfaceAreaRectangle(final double sideLength, final double slantHeight) {
         if (length <= 0) {
             throw new IllegalArgumentException("Length must be greater than 0");
         }
         if (width <= 0) {
             throw new IllegalArgumentException("Width must be greater than 0");
         }
-        return length * width;
+        
     }
 
     /**
